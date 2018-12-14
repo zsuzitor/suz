@@ -1,0 +1,173 @@
+<html>
+    <head>
+        <title>diagnostic</title>
+        <meta charset="utf-8" />
+        <script src="https://www.google.com/jsapi"></script>
+       <script src="js.js"></script>
+	    <script src=""></script>
+	    <script src=""></script>
+        <link href="style.css" rel="stylesheet" type="text/css">
+         <link href="bootstrap.css" rel="stylesheet" type="text/css">
+        
+        <style>
+        </style>
+		
+		
+    </head>
+    <body>
+        <div class="up_header">
+            <div class="header_line_1">
+            <div class="div_inline_block logo_block">
+<img src="images/logo.png" />
+            </div>
+            <div class="div_inline_block user_name_block form-control">
+                <div class="user_name_img div_inline_block">
+<img src="images/user_picture.png" />
+                </div>
+                <div class="div_inline_block">
+<label class=" control-label col-md-2">Username</label>
+                </div>
+            </div>
+</div>
+<div class="header_line_2 text-center">
+    <div class="header_line_2_ins">
+ <ul class="list-inline">
+    <!-- info -->
+     <li><button class="btn btn-info">Мониторинг</button></li>
+<li><button class="btn btn-default">Диагностика</button></li>
+<li><button class="btn btn-default">Прогноз</button></li>
+<li><button class="btn btn-default">Модернизаия</button></li>
+<li><button class="btn btn-default">Идентификация стадии ЖЦ</button></li>
+
+
+
+ </ul>
+</div> 
+
+</div>
+        </div>
+<!-- --------------------------------content---------------------- -->
+
+
+        
+ <div>
+    <div>
+        <div class="div_inline_block">
+     <ul class="list-inline">
+        <!-- menu_one_block -->
+         <!-- <li><div class="btn btn-default"><span class="menu_one_block_text">Загрузка данных</span></div></li>
+<li><div class="btn btn-default"><span class="menu_one_block_text">Анализ  данных</span></div></li>
+<li><div class="btn btn-info"><span class="menu_one_block_text">Диагноз</span></div></li> -->
+
+
+<li><button class="btn btn-default">Загрузка данных</button></li>
+<li><button class="btn btn-default">Анализ  данных</button></li>
+<li><button class="btn btn-info">Диагноз</button></li>
+
+
+
+
+     </ul>
+     </div>
+     <div class="div_inline_block menu_date_block">
+         <input type="date" class="form-control">
+     </div>
+</div>
+ 
+<div class="content_div">
+    <div class="div_inline_block content_left">
+
+
+
+
+       <fieldset>
+                <legend>Впрос 1</legend>
+
+        <p><input name="question1" type="radio"/> Вариант 1</p>
+    <p><input name="question1" type="radio"/> Вариант 2</p>
+    <p><input name="question1" type="radio"/> Вариант 3</p>
+    <p><input name="question1" type="radio"/> Вариант 4</p>
+</fieldset>
+
+
+
+
+
+<fieldset>
+                <legend>Впрос 2</legend>
+<select name="question2" class="form-control">
+    <option selected >Вариант 1</option>
+    <option >Вариант 2</option>
+    <option >Вариант 3</option>
+    <option >Вариант 4</option>
+</select>
+</fieldset>
+
+
+
+
+<fieldset>
+                <legend>Впрос 3</legend>
+<div class="question_img_div">
+<img src="images/camera_200.png" />
+</div>
+<select name="question3" class="form-control">
+    <option selected >Вариант 1</option>
+    <option >Вариант 2</option>
+    <option >Вариант 3</option>
+    <option >Вариант 4</option>
+</select>
+</fieldset>
+
+
+
+<p>Диагноз системы</p>
+<button class="btn btn-default">Диагноз</button>
+<p>Рекомендации системы</p>
+<button class="btn btn-default">Изменить график ТО</button>
+
+
+    </div>
+<div class="div_inline_block content_right">
+   <div class="diagnostic_right_type_block">
+
+       <div class="div_inline_block diagnostic_right_type_butdiv">
+       <button class="btn btn-info width_100_perc">Сравнение состояний ТС</button>
+       
+   </div> 
+<div class="div_inline_block diagnostic_right_type_butdiv">
+       <button class="btn btn-default width_100_perc">Соответствие прогнозов</button>
+       
+   </div> 
+   </div> 
+<div class="interval_date_line">
+<div class="interval_date_block">
+    <div class="div_inline_block">Диапазон дат</div>
+    <div class="div_inline_block"> <input type="date" class="form-control"></div>
+        <div class="div_inline_block"> <input type="date" class="form-control"></div>
+     </div>
+</div>
+<div class="diagnostic_graph_1" id="diagnostic_graph_1_id">
+    
+</div>
+
+        
+     </div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+ </div>
+ 
+ 
+ <!-- ----------------------------------------------- -->
+    </body>
+</html>
