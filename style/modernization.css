@@ -1,0 +1,39 @@
+li.content_menu_li{
+width: 30%;
+margin-left: 0px !important;
+	/*  */
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+ul.content_menu_ul{
+	margin-left: 0px !important;
+font-size: 0;
+}
+
+div.content_menu{
+	width: 82%;
+	height: 40px;
+}
+div.modernization_right_type_butdiv{
+	width: 50%;
+}
+div.modernization_right_type_block{
+	font-size: 0;
+}
+
+
+div.modern_param_search_col_1{
+	width: 20%;
+}
+div.modern_param_search_col_2{
+	width: 48%;
+}
+div.modern_param_search_col_3{
+	width: 20%;
+	min-width: 140px;
+}
+div.modern_param_search_col_4{
+	width: 5%;
+}
+
