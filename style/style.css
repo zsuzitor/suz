@@ -155,6 +155,7 @@ div.content_div{
 	/* height: 600px; */
 	border: 2px solid black;
 	font-size: 0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 div.content_left{
 width: 40%;
@@ -169,7 +170,7 @@ div.content_right{
 width: 60%;	
 border: 2px solid black;
 font-size: 16px;
-
+overflow-y: auto;
 /* TODO delete */
 /* height: 600px; */
 }

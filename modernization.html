@@ -59,7 +59,6 @@
          <div class="content_menu_all">
             <div class="div_inline_block content_menu">
                <ul class="list-inline content_menu_ul">
-                 
                   <li class="content_menu_li">
                      <button class="btn btn-default width_100_perc">Определение критерия</button>
                   </li>
@@ -115,10 +114,9 @@
                </div>
                <div class="bottom_content_left">
                   <div class="div_inline_block">Список критериев модернизации</div>
-                  
-                 
                </div>
             </div>
+            <!-- heights_content_block если правую часть тоже нужно ограничить -->
             <div class="div_inline_block content_right heights_content_block">
                <div class="modernization_right_type_block">
                   <div class="div_inline_block modernization_right_type_butdiv">
@@ -128,39 +126,24 @@
                      <button class="btn btn-default width_100_perc">Решение задачи ТРИЗ</button>
                   </div>
                </div>
-              <div class="font_size_0">
+               <div class="font_size_0">
                   <fieldset>
                      <legend>Определение параметров модернизации</legend>
 
+                     <!-- строка дескрипторов поиска, при копировании необходимо менять diagnostic_range_1 и diagnostic_range_label_1   на diagnostic_range_N и diagnostic_range_label_N  где N номер соответствующей строки или любая другая последовательность символов которая не нарушит "уникальность"-->
 
-<p>
-   <div class="div_inline_block modern_param_search_col_1 child_font_size_0">
-                        текст1
+                     <!-- сейчас заполняется в modernization.js  -->
+                     <div id="modernization_params_block_id">
+                        
+                        
                      </div>
-<div class="div_inline_block modern_param_search_col_2 child_font_size_0">
-                         <select name="question2" class="form-control">
-                        <option selected >Вариант 1</option>
-                        <option >Вариант 2</option>
-                     </select>
-
-                     </div>
-                     <div class="div_inline_block modern_param_search_col_3 child_font_size_0">
-                        <input id="diagnostic_range_1" onchange="test_change(this)" type="range" min="0" max="100" step="1" value="50">
-
-                     </div>
-<div class="div_inline_block modern_param_search_col_4 child_font_size_0">
-                       <label id="diagnostic_range_label_1">50</label>
-
-                     </div>
-
-</p>
                      
-                    
-                  </fieldset>
 
- <button class="btn btn-default float_right">Поиск прецедента модернизации</button>
-              </div>
-               
+                     <!-- вторая строка, просто для наполнения -->
+                     <!--  -->
+                  </fieldset>
+                  <button class="btn btn-default float_right">Поиск прецедента модернизации</button>
+               </div>
             </div>
          </div>
       </div>
