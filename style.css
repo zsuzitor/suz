@@ -1,3 +1,6 @@
+ /* create by @zsuzitor  */
+
+ 
 /* для label  control-label col-md-2*/
 /* для input  form-control     */
 
@@ -32,6 +35,21 @@ button{
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+
+ul.list-inline{
+/* margin-left: 50px; */
+
+}
+ul.list-inline li{
+margin-left: 0px;
+
+}
+
+
+.pos_relation{
+	 position:relative;
+}
+
 div.div_display_none{
     display: none;
     position:relative;
@@ -45,7 +63,19 @@ div.div_inline_block {
 .width_100_perc{
 	width: 100%;
 }
+div.heights_content_block{
+	height: 600px;
+}
 
+.content_scroll{
+	overflow-y: scroll;
+}
+
+
+
+.float_right{
+	float:right ;
+}
 /*---------------------------------------header----*/
 
 div.user_name_block{
@@ -53,7 +83,7 @@ div.user_name_block{
 	right: 0px;
 	width: 250px;
 	height: 40px;
-	bottom: 5px;
+	bottom: 10px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
@@ -83,12 +113,29 @@ div.header_line_2{
 
 }
 div.header_line_2_ins{
-display: inline;
+/* display: inline; */
 }
 
 
+ul.top_header_menu{
+margin-left: 0px !important;
+font-size: 0;
 
+}
+li.top_header_menu_li{
+	 width: 19%; 
+	margin-left: 0px !important;
+	/*  */
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+li.top_header_menu_li_b{
+width: 24% !important;
+}
 
+/* button.top_header_menu_but{
+	width: 100%;
+} */
 
 
 /*---------------------------------------end header----*/
@@ -96,7 +143,7 @@ display: inline;
 /*---------------------------------------all*/
 div.content_div{
 	/* max- */
-	height: 600px;
+	/* height: 600px; */
 	border: 2px solid black;
 	font-size: 0;
 }
@@ -104,10 +151,10 @@ div.content_left{
 width: 40%;
 border: 2px solid black;
 font-size: 16px;
-overflow-y: scroll;
+
 
 /* TODO delete */
-height: 600px;
+/* height: 600px; */
 }
 div.content_right{
 width: 60%;	
@@ -115,15 +162,21 @@ border: 2px solid black;
 font-size: 16px;
 
 /* TODO delete */
-height: 600px;
+/* height: 600px; */
 }
 
 
 
 
 div.question_img_div{
-width: 100px;
-height: 100px;
+	/* position: absolute;
+left: 50%;
+margin-left: -150px; */
+margin-left: auto;
+    margin-right: auto;
+
+width: 300px;
+height: 300px;
 }
 
 
@@ -132,6 +185,11 @@ height: 100px;
 
 
 
+
+
+
+/* ------------------------------------------------------------------diagnostic */
+/* TODO сейчас не используется, попытка сделать стрелки */
 div.menu_one_block{
 /* width: 20px; */
 height: 40px;
@@ -141,7 +199,7 @@ position: relative;
 background-color: #c0d6f9;
 /* padding-top: 3px; */
 }
-
+/* TODO сейчас не используется, попытка сделать стрелки */
 div.menu_one_block::after {
 content: ''; 
     position: absolute; /* Абсолютное позиционирование */
@@ -154,17 +212,10 @@ content: '';
    border-left: 20px solid #c0d6f9;
 	
 }
-ul.list-inline{
-margin-left: 50px;
 
-}
-ul.list-inline li{
-margin-left: 20px;
-
-}
 
 div.menu_date_block{
-	float:right ;
+	/* float:right ; */
 }
 span.menu_one_block_text{
 font-size: 15px;
@@ -172,7 +223,7 @@ font-size: 15px;
 
 }
 div.interval_date_block{
-	float:right ;
+	/* float:right ; */
 }
 
 div.diagnostic_graph_1{
@@ -189,3 +240,53 @@ div.diagnostic_right_type_block{
 div.diagnostic_right_type_butdiv{
 	width: 50%;
 }
+
+
+div.content_menu{
+	width: 82%;
+	height: 40px;
+}
+
+ul.content_menu_ul{
+	margin-left: 0px !important;
+font-size: 0;
+}
+
+li.content_menu_li{
+width: 30%;
+margin-left: 0px !important;
+	/*  */
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+}
+
+
+div.content_menu_all{
+	padding-top: 5px;
+	/* height: 50px; */
+}
+
+
+div.bottom_content_left{
+	padding-top: 20px;
+}
+
+
+/* ul.list_inline_{
+	  margin: 0; 
+   
+    
+}
+
+ul.list_inline_ li {
+    display: inline-block; 
+    margin-left: 0px;
+  width: 20%;
+    padding: 3px; 
+   } */
+
+
+
+
+
+

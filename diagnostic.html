@@ -1,4 +1,5 @@
 <html>
+<!-- create by @zsuzitor -->
     <head>
         <title>diagnostic</title>
         <meta charset="utf-8" />
@@ -31,13 +32,15 @@
 </div>
 <div class="header_line_2 text-center">
     <div class="header_line_2_ins">
- <ul class="list-inline">
+        <!-- list-inline -->
+ <ul class="top_header_menu list-inline">
     <!-- info -->
-     <li><button class="btn btn-info">Мониторинг</button></li>
-<li><button class="btn btn-default">Диагностика</button></li>
-<li><button class="btn btn-default">Прогноз</button></li>
-<li><button class="btn btn-default">Модернизаия</button></li>
-<li><button class="btn btn-default">Идентификация стадии ЖЦ</button></li>
+    <!-- top_header_menu_but -->
+     <li  class="top_header_menu_li"><button class="btn btn-default width_100_perc">Мониторинг</button></li>
+<li class="top_header_menu_li"><button class="btn btn-info width_100_perc">Диагностика</button></li>
+<li class="top_header_menu_li"><button class="btn btn-default width_100_perc">Прогноз</button></li>
+<li class="top_header_menu_li"><button class="btn btn-default width_100_perc">Модернизаия</button></li>
+<li class="top_header_menu_li top_header_menu_li_b"><button class="btn btn-default width_100_perc">Идентификация стадии ЖЦ</button></li>
 
 
 
@@ -51,32 +54,32 @@
 
         
  <div>
-    <div>
-        <div class="div_inline_block">
-     <ul class="list-inline">
+    <div class="content_menu_all">
+        <div class="div_inline_block content_menu">
+     <ul class="list-inline content_menu_ul">
         <!-- menu_one_block -->
          <!-- <li><div class="btn btn-default"><span class="menu_one_block_text">Загрузка данных</span></div></li>
 <li><div class="btn btn-default"><span class="menu_one_block_text">Анализ  данных</span></div></li>
 <li><div class="btn btn-info"><span class="menu_one_block_text">Диагноз</span></div></li> -->
 
 
-<li><button class="btn btn-default">Загрузка данных</button></li>
-<li><button class="btn btn-default">Анализ  данных</button></li>
-<li><button class="btn btn-info">Диагноз</button></li>
+<li class="content_menu_li"><button class="btn btn-default width_100_perc">Загрузка данных</button></li>
+<li class="content_menu_li"><button class="btn btn-default width_100_perc">Анализ  данных</button></li>
+<li class="content_menu_li"><button class="btn btn-info width_100_perc">Диагноз</button></li>
 
 
 
 
      </ul>
      </div>
-     <div class="div_inline_block menu_date_block">
+     <div class="div_inline_block menu_date_block float_right">
          <input type="date" class="form-control">
      </div>
 </div>
  
 <div class="content_div">
     <div class="div_inline_block content_left">
-
+<div class="content_scroll heights_content_block">
 
 
 
@@ -106,7 +109,7 @@
 
 
 
-<fieldset>
+<fieldset class="pos_relation">
                 <legend>Впрос 3</legend>
 <div class="question_img_div">
 <img src="images/camera_200.png" />
@@ -120,15 +123,24 @@
 </fieldset>
 
 
-
-<p>Диагноз системы</p>
-<button class="btn btn-default">Диагноз</button>
-<p>Рекомендации системы</p>
-<button class="btn btn-default">Изменить график ТО</button>
+<div class="div_inline_block">Диагноз системы</div>
+<div class="div_inline_block float_right"><button class="btn btn-default">Диагноз</button></div>
+<p></p>
 
 
+
+</div>
+<div class="bottom_content_left">
+<div class="div_inline_block">Рекомендации системы</div>
+<div class="div_inline_block float_right"><button class="btn btn-default">Изменить график ТО</button></div>
+
+
+  <!--   <p>Рекомендации системы</p>
+<button class="btn btn-default">Изменить график ТО</button> -->
+
+</div>
     </div>
-<div class="div_inline_block content_right">
+<div class="div_inline_block content_right heights_content_block">
    <div class="diagnostic_right_type_block">
 
        <div class="div_inline_block diagnostic_right_type_butdiv">
@@ -141,7 +153,7 @@
    </div> 
    </div> 
 <div class="interval_date_line">
-<div class="interval_date_block">
+<div class="interval_date_block float_right">
     <div class="div_inline_block">Диапазон дат</div>
     <div class="div_inline_block"> <input type="date" class="form-control"></div>
         <div class="div_inline_block"> <input type="date" class="form-control"></div>
@@ -162,9 +174,10 @@
 
 
 
+<!-- --------------------------------end content ----------------------------------------------------------- -->
 
-
-
+<div class="footer">
+    <p>ИП-МДМ, Работа с ТС "Насос типа ТКА32/125 19/5/07"</p>
  </div>
  
  
