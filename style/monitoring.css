@@ -1,0 +1,27 @@
+
+
+
+
+
+div.monitoring_right_type_butdiv{
+	width: 33.3333%;
+}
+div.monitoring_right_type_block{
+	font-size: 0;
+}
+div.mon_search_str{
+	width: 200px;
+}
+table.mon_nor_table{
+
+}
+table.mon_nor_table tr{
+height: 30px;
+}
+
+div.monitoring_graph_1{
+	width: 100%;
+	height: 85%;
+	overflow:hidden; 
+}
+

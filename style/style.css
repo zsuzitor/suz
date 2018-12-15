@@ -6,7 +6,7 @@
 
  body{
 min-width: 960px;
-border: 2px solid black;
+/* border: 2px solid black; */
 padding: 2px;
 
  }
@@ -36,6 +36,11 @@ button{
 }
 
 
+table.border_table, table.border_table tr, table.border_table td{
+border: 2px solid black;
+
+}
+
 ul.list-inline{
 /* margin-left: 50px; */
 
@@ -62,6 +67,9 @@ div.div_inline_block {
 
 .width_100_perc{
 	width: 100%;
+}
+.width_50_perc{
+	width: 50%;
 }
 div.heights_content_block{
 	height: 600px;
